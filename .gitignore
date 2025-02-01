@@ -1,0 +1,27 @@
+ECHO is on.
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+../.venv/
+
+# Django secret files
+.env
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Static & media files
+staticfiles/
+media/
+
+# Logs
+*.log
+logs/
+
+# VS Code settings
+.vscode/
